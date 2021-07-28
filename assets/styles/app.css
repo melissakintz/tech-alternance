@@ -38,7 +38,13 @@ label {
     text-align: center;
 }
 
+.member-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
 .member-item {
+    margin: auto;
     padding: 0.25em 0;
 }
 
